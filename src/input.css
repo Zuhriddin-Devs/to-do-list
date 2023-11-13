@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.list-item {
+    @apply flex justify-between items-center bg-yellow-200 rounded-lg px-2 py-2
+}
+
+.delete-btn {
+    @apply text-white font-medium rounded-lg bg-red-600 px-6 py-2;
+}
