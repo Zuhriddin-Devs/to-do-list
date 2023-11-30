@@ -551,6 +551,10 @@ video {
   margin-right: 0px;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
